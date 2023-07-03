@@ -26,6 +26,10 @@ function App() {
       <TouchableOpacity onPress={readNdef}>
         <Text>Scan a Tag</Text>
       </TouchableOpacity>
+
+      <TouchableOpacity >
+        <Text>{tag}</Text>
+      </TouchableOpacity>
     </View>
   );
 }
